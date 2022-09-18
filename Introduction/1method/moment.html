@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <H1>
+        Date And Time: <h2 id="DateAndTime" ></h2>
+    </H1>
+    <!-- 1) Copy code from official docs. and paste to new file moment.min.js -->
+    <!-- 2) Link file to html -->
+    <script src="./moment.min.js">
+    </script>
+    <script>
+        // 3) Make sure that it works
+        console.log(moment())
+        const dateAndTime = document.getElementById("DateAndTime")
+        dateAndTime.innerHTML = moment()
+    </script>
+</body>
+</html>

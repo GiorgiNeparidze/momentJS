@@ -1,0 +1,5 @@
+MomenJS is a liberary to Parse, Validate, Manipulate, Display Dates And Times.
+
+There are 2 main methots of using it:
+1)Dowload or include it on our HTML file. https://momentjs.com/downloads/moment.min.js
+2)Install it using npm. npm i moment --save.
